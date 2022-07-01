@@ -1,0 +1,228 @@
+.page {
+    background-color: #ffffff;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo {
+    color: #212121;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logoweb {
+    color: #2196F3;
+}
+
+.section {}
+
+/* Навигация */
+
+.site-nav a {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+
+.contact-list a {
+    color: #212121;
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+    color: #2196F3;
+}
+
+/* Кнопка */
+.button {
+    color: #ffff;
+    background-color: #2196F3;
+}
+
+/* секции */
+
+.section-titel-board {
+    background-color: #212121;
+    color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+}
+
+/* Особинности */
+.features-list {
+    color: #212121;
+    list-style: none;
+}
+
+.titel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.titel-list {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+}
+
+/* Чем занимаемся */
+.Lessons {
+    list-style: none;
+}
+
+.section-titel {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
+/* Команда */
+.team {
+    list-style: none;
+    background-color: #F5F4FA;
+}
+
+.team-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
+.work {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
+
+/* Подвал */
+footer {
+    background-color: #2F303A;
+}
+
+.footer {
+    list-style: none;
+}
+
+.logofooter {
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.adress {
+    color: #FFFFFF;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+/*Портфолиo*/
+
+.portfolio {}
+
+.project {
+    list-style: none;
+
+}
+
+h2 {
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+.project-it {
+    color: #757575;
+
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+
+
+
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #2196F3;
+}
