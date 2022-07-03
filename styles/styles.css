@@ -22,6 +22,7 @@ body {
 .logo {
     color: #212121;
     font-family: Raleway;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -74,9 +75,19 @@ body {
 }
 
 /* Кнопка */
-.button {
+.section .button {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
     color: #ffff;
     background-color: #2196F3;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 5px;
+    border: #2196F3;
+
 }
 
 /* секции */
@@ -154,15 +165,18 @@ footer {
 
 .footer {
     list-style: none;
+    font-style: normal;
+
 }
 
 .logofooter {
     color: #FFFFFF;
-
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+
 }
 
 .adress {
@@ -204,14 +218,45 @@ h2 {
 
 }
 
+.portf-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.82;
+
+    background: #F5F4FA;
+    border-radius: 3px;
+    border: #F5F4FA;
+    padding: 6px 22px;
+    cursor: pointer;
+}
+
+.portf-button:focus,
+.portf-button:hover {
+    background-color: #2196F3;
+}
+
+.portf-button:focus .portf-button:hover {
+    background: #2196F3;
+}
+
+.qqq:hover {
+    color: #ffffff;
+}
+
 .project-it {
     color: #757575;
 
-    font-weight: 900;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 
 
+
+}
+
+.port-button {
+    list-style: none;
 
 }
 
