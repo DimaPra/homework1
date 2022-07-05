@@ -6,7 +6,7 @@
 
 }
 
-header {
+.header {
     background-color: #FFFFFF;
 }
 
@@ -33,7 +33,7 @@ body {
     color: #2196F3;
 }
 
-.section {}
+
 
 /* Навигация */
 
@@ -87,6 +87,7 @@ body {
     padding: 10px 32px;
     border-radius: 5px;
     border: #2196F3;
+    cursor: pointer;
 
 }
 
@@ -178,6 +179,17 @@ footer {
     text-decoration: none;
 
 }
+.footer .contacts:hover,
+.footer .contacts:focus{
+    color: #2196F3;
+    
+}
+
+.adress:hover,
+.adress:focus{
+    color: #2196F3;
+
+}
 
 .adress {
     color: #FFFFFF;
@@ -201,8 +213,6 @@ footer {
 /* ------------------------------------------------------------------------------------------ */
 
 /*Портфолиo*/
-
-.portfolio {}
 
 .project {
     list-style: none;
