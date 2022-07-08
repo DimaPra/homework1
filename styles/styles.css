@@ -1,3 +1,9 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 .page {
     background-color: #ffffff;
     color: #212121;
@@ -64,9 +70,16 @@ body {
     text-decoration: none;
 }
 
+.link-contact:hover,
+.link-contact:focus {
+    color: #2196F3;
+}
+
+
+
 
 .contact-list a {
-    color: #212121;
+    color: #757575;
 }
 
 .contact-list .link:hover,
@@ -179,14 +192,15 @@ footer {
     text-decoration: none;
 
 }
+
 .footer .contacts:hover,
-.footer .contacts:focus{
+.footer .contacts:focus {
     color: #2196F3;
-    
+
 }
 
 .adress:hover,
-.adress:focus{
+.adress:focus {
     color: #2196F3;
 
 }
@@ -234,6 +248,7 @@ h2 {
     font-size: 16px;
     line-height: 1.82;
 
+
     background: #F5F4FA;
     border-radius: 3px;
     border: #F5F4FA;
@@ -244,15 +259,17 @@ h2 {
 .portf-button:focus,
 .portf-button:hover {
     background-color: #2196F3;
+    color: #ffffff;
 }
 
 .portf-button:focus .portf-button:hover {
     background: #2196F3;
+    cursor: pointer;
 }
 
-.qqq:hover {
-    color: #ffffff;
-}
+
+
+
 
 .project-it {
     color: #757575;
