@@ -20,12 +20,15 @@ body {
     background-color: #E5E5E5;
 }
 
+/* утилита */
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 /* Логотип */
-.logo {
+.main-nav .logo {
     color: #212121;
     font-family: Raleway;
     font-weight: 700;
@@ -33,6 +36,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    margin-right: 95px;
 }
 
 .logoweb {
@@ -43,31 +48,47 @@ body {
 
 /* Навигация */
 
-.site-nav a {
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.site-nav {
+    display: flex;
+
+
+}
+
+.site-nav .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+
 }
 
+.site-nav .items+.items {
+    margin-left: 50px;
+}
+
+.site-nav .items:last-child {
+    margin-right: 0;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #2196F3;
 }
 
-
-
 .site-nav .link.current {
     color: #2196F3;
-}
-
-.link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
 }
 
 .link-contact:hover,
@@ -76,10 +97,27 @@ body {
 }
 
 
-
+/* Контакты */
 
 .contact-list a {
     color: #757575;
+
+}
+
+.contact-list {
+    display: flex;
+    margin-left: 330px;
+
+}
+
+.contact-list .link-contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+
+.contact-list .items+.items {
+    margin-left: 50px;
 }
 
 .contact-list .link:hover,
@@ -87,8 +125,9 @@ body {
     color: #2196F3;
 }
 
+
 /* Кнопка */
-.section .button {
+.section-hero .button {
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
@@ -104,9 +143,21 @@ body {
 
 }
 
+.section-hero .button:hover,
+.section-hero .button:focus {
+    background-color: #188CE8;
+}
+
 /* секции */
+.section-hero {
+    text-align: center;
+}
 
 .section-titel-board {
+    margin-top: 0;
+    margin-bottom: 0;
+
+
     background-color: #212121;
     color: #fff;
     font-weight: 900;
