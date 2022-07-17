@@ -190,6 +190,7 @@ img {
     max-width: 1600px;
     height: 600px;
 
+    background-color: #2F303A;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -199,8 +200,7 @@ img {
 .section-titel-board {
     margin-bottom: 30px;
 
-    /* background-color: #212121; */
-    color: #212121;
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -260,11 +260,9 @@ img {
 }
 
 
-/* Команда */
+/* ================Команда================== */
 .team-section {
     background-color: #F5F4FA;
-
-
 }
 
 .team {
@@ -284,8 +282,19 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-bottom: 14px;
 }
 
+.name-work {
+    text-align: center;
+}
+
+.command-flame {
+    padding-top: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
 
 .work {
     color: #757575;
@@ -294,12 +303,9 @@ img {
     line-height: 1.18;
 }
 
-
-
 /* ====================Подвал================== */
 .footer-all {
     background-color: #2F303A;
-
 }
 
 .footer-block {
@@ -311,7 +317,7 @@ img {
 .footer {
     list-style: none;
     font-style: normal;
-
+    padding-bottom: 66px;
 }
 
 .logofooter {
@@ -321,19 +327,16 @@ img {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-
 }
 
 .footer .contacts:hover,
 .footer .contacts:focus {
     color: #2196F3;
-
 }
 
 .adress:hover,
 .adress:focus {
     color: #2196F3;
-
 }
 
 .adress {
@@ -360,17 +363,14 @@ img {
 .footer-logo {
     display: block;
     margin-bottom: 20px;
-
 }
 
-/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------- */
 
-/*Портфолиo*/
+/*===================Портфолиo================*/
 
 .project {
     list-style: none;
-
-
 }
 
 h2 {
@@ -379,7 +379,6 @@ h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
 }
 
 .portfolio {
@@ -390,16 +389,26 @@ h2 {
 }
 
 
-
-
-
-
 .project-it {
     color: #757575;
 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    margin-top: 4px;
+    padding-bottom: 20px;
+}
+
+.project-potf {
+    border: 1px solid #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+}
+
+
+.project-name-portf {
+    padding-top: 20px;
 }
 
 .port-button {
@@ -409,9 +418,6 @@ h2 {
     margin-bottom: 40px;
     gap: 15px;
     justify-content: center;
-
-
-
 }
 
 .project-link {
