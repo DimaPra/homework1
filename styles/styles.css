@@ -27,7 +27,8 @@ body {
 h2,
 h3,
 h4,
-p {
+p,
+h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -85,11 +86,11 @@ img {
 
 
 /* =====================Навигация======================= */
-.page-header-cont {}
 
 .main-nav {
     display: flex;
     align-items: center;
+    background-color: #FFFFFF;
 }
 
 .site-nav {
@@ -130,7 +131,7 @@ img {
     margin-right: 40px;
 }
 
-/* Контакты */
+/* =============Контакты=============== */
 
 
 .contact-list a {
@@ -160,7 +161,7 @@ img {
 }
 
 
-/* Кнопка */
+/* =========Кнопка============== */
 .section-hero .button {
     font-family: Roboto;
     font-weight: 700;
@@ -182,31 +183,33 @@ img {
     background-color: #188CE8;
 }
 
-/* секции */
+/* ===============секции Герой============ */
 .section-hero {
     text-align: center;
 }
 
 .section-titel-board {
-    width: 696px;
-    height: 120px;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    text-transform: uppercase;
 
-
-
-    background-color: #212121;
-    color: #fff;
+    /* background-color: #212121; */
+    color: #212121;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 
-    text-align: center;
+
 }
 
-/* Особинности */
+/* =============Особинности================= */
+
 .section-futures {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -259,6 +262,7 @@ img {
 /* Команда */
 .team-section {
     background-color: #F5F4FA;
+    display: ;
 
 }
 
@@ -292,14 +296,12 @@ img {
 
 
 /* Подвал */
-footer {
+.footer-all {
     background-color: #2F303A;
 }
 
-footer,
-li {
-    margin-bottom: 9px;
-}
+
+
 
 .footer {
     list-style: none;
