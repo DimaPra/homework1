@@ -96,8 +96,7 @@ img {
 .site-nav {
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
 
 }
 
@@ -111,7 +110,12 @@ img {
 
 }
 
-
+.link-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -188,7 +192,6 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
-    height: 600px;
 
     background-color: #2F303A;
     margin-left: auto;
@@ -222,7 +225,7 @@ img {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .titel {
@@ -243,11 +246,15 @@ img {
 }
 
 /* =============Чем занимаемся============== */
+.section-work {
+    padding-bottom: 94px;
+}
+
 .Lessons {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin-bottom: 94px;
+
 }
 
 .section-titel {
@@ -263,19 +270,19 @@ img {
 /* ================Команда================== */
 .team-section {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team {
     list-style: none;
     display: flex;
-    padding-bottom: 94px;
+
     gap: 30px;
 }
 
 
-.team-titel {
-    padding-top: 94px;
-}
+
 
 .team-name {
     color: #212121;
@@ -294,6 +301,7 @@ img {
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
 }
 
 .work {
@@ -306,18 +314,18 @@ img {
 /* ====================Подвал================== */
 .footer-all {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.footer-block {
-    padding-top: 60px;
-}
+
 
 
 
 .footer {
     list-style: none;
     font-style: normal;
-    padding-bottom: 66px;
+
 }
 
 .logofooter {
@@ -342,7 +350,7 @@ img {
 .adress {
     color: #FFFFFF;
 
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -365,13 +373,22 @@ img {
     margin-bottom: 20px;
 }
 
+.footer-adress:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 /* ------------------------------------------------------------------------------------- */
 
 /*===================Портфолиo================*/
+.header-portf {
+    border: 1px solid #ECECEC;
+}
+
 
 .project {
     list-style: none;
 }
+
 
 h2 {
     color: #212121;
@@ -396,27 +413,28 @@ h2 {
     font-size: 16px;
     line-height: 1.87;
     margin-top: 4px;
-    padding-bottom: 20px;
+
 }
 
 .project-potf {
     border: 1px solid #EEEEEE;
+    padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 20px;
 }
 
+.page-header-portf {
+    padding-top: 92px;
 
-.project-name-portf {
-    padding-top: 20px;
+
 }
 
 .port-button {
     list-style: none;
     display: flex;
-    margin-top: 92px;
-    margin-bottom: 40px;
-    gap: 15px;
+    margin-bottom: 50px;
+    gap: 8px;
     justify-content: center;
 }
 
