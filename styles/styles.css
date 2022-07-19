@@ -381,7 +381,7 @@ img {
 
 /*===================Портфолиo================*/
 .header-portf {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -402,7 +402,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 96px;
+
 }
 
 
@@ -424,11 +424,6 @@ h2 {
     padding-bottom: 20px;
 }
 
-.page-header-portf {
-    padding-top: 92px;
-
-
-}
 
 .port-button {
     list-style: none;
@@ -452,6 +447,8 @@ h2 {
 
 .sectionport {
     color: #E5E5E5;
+    padding-top: 92px;
+    padding-bottom: 96px;
 }
 
 /* Кнопки Навигации */
