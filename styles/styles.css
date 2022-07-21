@@ -137,7 +137,6 @@ img {
 
 /* =============Контакты=============== */
 
-
 .contact-list a {
     color: #757575;
     text-decoration: none;
@@ -164,6 +163,40 @@ img {
 
 }
 
+.link-envelope::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url("../images/Icon/envelope1.png");
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+
+.link-vector::before {
+    content: "";
+
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url("../images/Icon/vector.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.link-envelope:focus:before {
+    color: #2196F3;
+}
+
+.link-vector:hover:before {
+    background-color: #2196F3;
+    color: #2196F3
+}
 
 /* =========Кнопка============== */
 .section-hero .button {
@@ -188,12 +221,23 @@ img {
 }
 
 /* ===============секции Герой============ */
+.hero-fon {
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/Hero/Imghero.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+
 .section-hero {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
 
-    background-color: #2F303A;
+    background-color: #C4C4C4;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
