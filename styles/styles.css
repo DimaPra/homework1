@@ -181,11 +181,13 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-
-.link-contact:hover,
+.link-contact:hover ,
 .link-contact:focus {
     color: #2196F3;
+}
+.link-contact:hover svg,
+.link-contact:focus svg{
+    fill: #2196F3;
 }
 
 /* =========Кнопка============== */
@@ -441,18 +443,18 @@ fill: #AFB1B8;
     
     
 }
-.icon-clients-link .icon-clients:hover,
-.icon-clients-link .icon-clients:focus{
+.icon-clients-link:hover svg,
+.icon-clients-link:focus svg{
     fill: #2196F3;
     
-}
-
-.icon-clients-link:hover,
-.icon-clients-link:focus{
     
     
 }
 
+.icon-clients-link:hover ,
+.icon-clients-link:focus {
+border-color: #2196F3;
+} 
 
 
 
