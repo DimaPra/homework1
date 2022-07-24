@@ -555,6 +555,8 @@ border-color: #2196F3;
 .title-мessenger-footer{
     text-transform: uppercase;
     color: #ffffff;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .icon-messenger-link-footer  {
@@ -598,8 +600,14 @@ border-color: #2196F3;
 
 .project {
     list-style: none;
+
 }
 
+.project:hover ,
+.project:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
 
 h2 {
     color: #212121;
@@ -633,7 +641,6 @@ h2 {
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 20px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -647,6 +654,7 @@ h2 {
 
 .project-link {
     text-decoration: none;
+
 }
 
 .project-text {
@@ -685,7 +693,7 @@ h2 {
     color: #ffffff;
 }
 
-.portf-button:focus .portf-button:hover {
+.portf-button:focus , .portf-button:hover {
     background: #2196F3;
     cursor: pointer;
 }
