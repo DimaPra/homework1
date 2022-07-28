@@ -96,6 +96,7 @@ img {
 .site-nav {
     display: flex;
     align-items: center;
+    
 
 
 }
@@ -125,12 +126,33 @@ img {
 .site-nav .link.current {
     color: #2196F3;
 }
-
+.current{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
 
 
 .items:not(:last-child) {
     margin-right: 40px;
 }
+
+.current-page::after{
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3;
+}
+
+
+
+
 
 /* =============Контакты=============== */
 
@@ -318,7 +340,7 @@ img {
     padding-bottom: 94px;
 }
 
-.Lessons {
+.lessons {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -334,7 +356,35 @@ img {
     margin-bottom: 50px;
 }
 
+.product-work{
+    position: relative;
 
+}
+
+.titel-product-work{
+
+color: #FFFFFF;
+padding-top: 27px;
+padding-bottom: 27px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+    
+}
+.titel-product{
+    display: inline-block;
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    
+    
+    bottom: 0;
+    
+    
+}
 /* ================Команда================== */
 .team-section {
     background-color: #F5F4FA;
@@ -585,7 +635,61 @@ border-color: #2196F3;
 }
 
 
+/* <!======-- Модальное Окно --=====> */
 
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+
+.modal{
+    width: 528px;
+    height: 581px;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    
+    
+}
+
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-close{
+    position: absolute;
+
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+
+}
+
+.modal-close-icon{
+    width: 18px;
+    height: 18px;
+}
 /* ------------------------------------------------------------------------------------- */
 
 
@@ -621,6 +725,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    
 
 }
 
@@ -654,6 +759,7 @@ h2 {
 
 .project-link {
     text-decoration: none;
+    position: relative;
 
 }
 
@@ -696,4 +802,46 @@ h2 {
 .portf-button:focus , .portf-button:hover {
     background: #2196F3;
     cursor: pointer;
+}
+
+/* Оформление карточек */
+
+.product-card{
+    position: relative;
+}
+
+/* .product-card::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.product-card:hover:before ,
+.product-card:focus:before{
+    opacity: 1;
+} */
+
+.project-text{
+    position: absolute  ;
+
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    
+
+    padding-top: 63px; 
+    padding-bottom: 63px;  
+    padding-left: 23px;
+    padding-right: 23px;
+    background: rgba(33, 150, 243, 0.9);
+
+    opacity: 0;
+} 
+.product:hover .project-text,
+.product:focus .project-text{
+    opacity: 1;
 }
