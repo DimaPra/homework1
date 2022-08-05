@@ -943,7 +943,7 @@ textarea{
 }
 
 .checkbox:checked + .policy::before{
-background-color: #188CE8;
+background-color: #2196F3;
 background-image: url(../images/Icon/galochka.svg);
 background-repeat: no-repeat;
 background-position: center;
@@ -970,7 +970,7 @@ border: none;
     line-height: 24px;
 }
 .checkbox:focus + .policy::before{
-    outline: 2px solid rgba(33, 150, 243,0.7);
+    outline: 2px solid rgba(33, 150, 243,1);
 }
 .form-policy{
     display: flex;
