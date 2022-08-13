@@ -1,0 +1,26 @@
+.portf-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.82;
+
+
+    background: #F5F4FA;
+    border-radius: 3px;
+    border: #F5F4FA;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:focus,
+    &:hover {
+        background-color: #2196F3;
+        color: #ffffff;
+        
+    }
+    
+}
+
+
