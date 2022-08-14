@@ -27,15 +27,15 @@
     background: rgba(33, 150, 243, 0.9);
 
     
-    .project-link:hover &,
-    .project-link:focus &{
+    .project__project-link:hover &,
+    .project__project-link:focus &{
         transform: translate(0,0);
     }
 
 } 
 
 
-.project-link {
+.project__project-link {
     text-decoration: none;
     position: relative;
 

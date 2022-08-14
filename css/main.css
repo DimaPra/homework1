@@ -703,6 +703,7 @@ textarea {
 
 .footer-addres-block {
   display: inline-block;
+  min-width: 232px;
 }
 
 .footer {
@@ -776,14 +777,14 @@ textarea {
   padding-top: 20px;
 }
 
-.title-мessenger-footer {
+.мessenger-block__title-мessenger-footer {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.icon-messenger-link-footer {
+.list-мessenger__icon-messenger-link-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -794,20 +795,25 @@ textarea {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-messenger-link-footer:hover, .icon-messenger-link-footer:focus {
+.list-мessenger__icon-messenger-link-footer:hover, .list-мessenger__icon-messenger-link-footer:focus {
   background-color: #2196F3;
 }
-.icon-messenger-link-footer:hover .icon-messenger, .icon-messenger-link-footer:focus .icon-messenger {
+.list-мessenger__icon-messenger-link-footer:hover .icon-messenger, .list-мessenger__icon-messenger-link-footer:focus .icon-messenger {
   fill: #ffffff;
 }
 
-.icon-messenger-footer {
+.list-мessenger__icon-messenger-footer {
   width: 22px;
   height: 22px;
   fill: #ffffff;
 }
 
-.form-titel-footer {
+.form-block-footer {
+  width: 570px;
+  height: 86px;
+}
+
+.form-block-footer__form-titel-footer {
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 14px;
@@ -822,18 +828,13 @@ textarea {
   margin-bottom: 20px;
 }
 
-.form-block-footer {
-  width: 570px;
-  height: 86px;
-}
-
-.form-footer {
+.form-block-footer__form-footer {
   width: 570px;
   height: 86px;
   display: flex;
 }
 
-.footer-form-input {
+.form-block-footer__footer-form-input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -844,7 +845,7 @@ textarea {
   color: #EEEEEE;
 }
 
-.form-btn-footer {
+.form-block-footer__form-btn-footer {
   position: relative;
   margin-left: 12px;
   font-family: Roboto;
@@ -866,7 +867,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-send {
+.form-block-footer__footer-icon-send {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -907,11 +908,11 @@ h2 {
   padding-right: 23px;
   background: rgba(33, 150, 243, 0.9);
 }
-.project-link:hover .project__project-text, .project-link:focus .project__project-text {
+.project__project-link:hover .project__project-text, .project__project-link:focus .project__project-text {
   transform: translate(0, 0);
 }
 
-.project-link {
+.project__project-link {
   text-decoration: none;
   position: relative;
 }
@@ -956,7 +957,7 @@ h2 {
   gap: 30px;
 }
 
-.project-it {
+.project__project-it {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
@@ -964,7 +965,7 @@ h2 {
   margin-top: 4px;
 }
 
-.project-potf {
+.project__project-potf {
   border: 1px solid #EEEEEE;
   padding-top: 20px;
   padding-left: 24px;

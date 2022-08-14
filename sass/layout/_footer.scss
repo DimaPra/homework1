@@ -10,6 +10,7 @@
 .footer-addres-block{
     // margin-right: 70px; 
     display: inline-block;
+    min-width: 232px;
 }
 
 
@@ -101,14 +102,14 @@
 
 }
 
-.title-мessenger-footer{
+.мessenger-block__title-мessenger-footer{
     text-transform: uppercase;
     color: #ffffff;
     font-size: 14px;
     line-height: 1.14;
 }
 
-.icon-messenger-link-footer  {
+.list-мessenger__icon-messenger-link-footer  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +132,7 @@
 }
 
 }
-.icon-messenger-footer{
+.list-мessenger__icon-messenger-footer{
     width: 22px;
     height: 22px;
     fill: #ffffff;
@@ -139,9 +140,13 @@
 }
 
 
+.form-block-footer{
+    width: 570px;
+    height: 86px;
+    
+}
 
-
-.form-titel-footer{
+.form-block-footer__form-titel-footer{
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 14px;
@@ -159,17 +164,13 @@ text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.form-block-footer{
-    width: 570px;
-    height: 86px;
-    
-}
-.form-footer{
+
+.form-block-footer__form-footer{
     width: 570px;
     height: 86px;
     display: flex;
 }
-.footer-form-input{
+.form-block-footer__footer-form-input{
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -180,7 +181,7 @@ text-transform: uppercase;
     color: #EEEEEE;
 }
 
-.form-btn-footer{
+.form-block-footer__form-btn-footer{
     position: relative;
     margin-left: 12px;
     font-family: Roboto;
@@ -207,7 +208,7 @@ text-transform: uppercase;
 
 
 
-.footer-icon-send{
+.form-block-footer__footer-icon-send{
     position: absolute;
     width: 24px;
     height:24px;
