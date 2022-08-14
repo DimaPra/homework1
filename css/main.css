@@ -9,7 +9,7 @@ body {
   background-color: #ffffff;
   color: #212121;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
 }
 
 .header {
@@ -57,6 +57,7 @@ textarea {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   color: white;
   background-color: #2196F3;
   display: inline-block;
@@ -326,7 +327,15 @@ textarea {
   color: #2196F3;
 }
 
-.main-nav .logo {
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.logo {
+  margin-right: 90px;
+  display: block;
   color: #212121;
   font-family: Raleway;
   font-weight: 700;
@@ -336,19 +345,7 @@ textarea {
   text-decoration: none;
 }
 
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.logo {
-  margin-right: 90px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.logo__logoweb {
+.logo__header {
   color: #2196F3;
 }
 
@@ -514,6 +511,7 @@ textarea {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 
 .titel-list {
@@ -523,6 +521,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
+  letter-spacing: 0.03em;
 }
 
 .titel-details::before {
@@ -703,7 +702,7 @@ textarea {
 }
 
 .footer-addres-block {
-  margin-right: 70px;
+  display: inline-block;
 }
 
 .footer {
@@ -711,16 +710,13 @@ textarea {
   font-style: normal;
 }
 
-.logo-footer {
+.footer__logo {
   color: #FFFFFF;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
-.logo-footer__logoweb {
+.logo__footer {
   color: #2196F3;
 }
 
@@ -770,6 +766,7 @@ textarea {
   width: 206px;
   height: 80px;
   margin-right: 93px;
+  margin-left: 70px;
 }
 
 .list-мessenger {

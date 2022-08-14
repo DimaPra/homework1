@@ -1,14 +1,4 @@
-.main-nav .logo {
-    color: #212121;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
 
-
-}
 
 .list {
     padding: 0;
@@ -18,11 +8,18 @@
 
 .logo {
     margin-right: 90px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+display: block;
+
+    color: #212121;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
-.logo__logoweb {
+.logo__header {
     color: #2196F3;
 
 }
