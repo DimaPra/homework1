@@ -1,33 +1,89 @@
-.hero-fon {
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/Hero/Imghero.jpg);
-    background-repeat: no-repeat;
+// .hero-fon {
+//     background-image: linear-gradient(to right,
+//             rgba(47, 48, 58, 0.4),
+//             rgba(47, 48, 58, 0.4)),
+//         url(../images/Hero/Imghero.jpg);
+//     background-repeat: no-repeat;
+//     background-position: 50% 50%;
+//     background-size: cover;
+
+// }
+@media screen and (min-divice-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx){
+    .hero-fon{
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),url(../images/mobile/herofon-mobile.jpeg.jpg);
+        background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    
+    }
+
 
 }
 
-.section-hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    max-width: 1600px;
+@media screen and (min-width:768px) and (max-width:1199px){
+    .section-hero {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        max-width: 1600px;
+    
+        background-color: #C4C4C4;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-transform: uppercase;
+    }   
+    .section-titel-board {
+        margin-bottom: 30px;
+    
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
 
-    background-color: #C4C4C4;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    text-transform: uppercase;
+    
+    }
 }
 
+
+
+
+@media screen and (max-width:767px) {
+    .section-hero {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        max-width: 1600px;
+    
+        background-color: #C4C4C4;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-transform: uppercase;
+    }   
+    .section-titel-board {
+        margin-bottom: 30px;
+    
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+
+    
+    }
 .section-titel-board {
-    margin-bottom: 30px;
-
-    color: #FFFFFF;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-
-
+        margin-bottom: 30px;
+    
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+    
+    }
 }
+
+
+
+
+
+
