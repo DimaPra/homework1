@@ -1,7 +1,7 @@
 @media screen and (max-width:767px) {
     .mobile-menu{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-color: #FFFFFF;
     top: 0;
@@ -37,12 +37,17 @@ padding-left: 25px;
 padding-top: 48px;
 margin-bottom: 302px;
 }
-.mobile-menu__nav-list{
+
+
+.mobile-menu__nav-list-pade{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 40px;
 line-height: 47px;
 letter-spacing: 0.02em;
+
+color: #212121;
 
 }
 .mobile-menu__nav-list:not(:last-child){
@@ -55,11 +60,17 @@ letter-spacing: 0.02em;
     margin-bottom: 64px;
     
 }
+
+.mobile-menu__contact-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #757575;
+}
+
 .mobile-menu__contact-list{
-font-style: normal;
-font-weight: 500;
-font-size: 34px;
-line-height: 40px;
+
 }
 .mobile-menu__contact-list:not(:last-child){
     margin-bottom: 32px;
@@ -73,7 +84,7 @@ line-height: 40px;
 justify-content: center;
 
 }
-.mobile-menu__messeg-list{
+.mobile-menu__messeg-link{
 text-align: center;
 justify-content: center;
 font-style: normal;
@@ -90,14 +101,15 @@ transform: rotate(90deg);
 margin-left: 10px;
 height: 22px;
 }
-.mobile-menu__nav-list:hover{
+.mobile-menu__nav-list-pade:hover{
     color: #2196F3;
 
 }
 
-.mobile-menu__contact-list:hover{
+.mobile-menu__contact-link:hover{
     color: #2196F3;
 }
+
 }
 
 @media screen and (min-width:768px) {
