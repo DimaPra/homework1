@@ -1,8 +1,37 @@
-@media screen and (max-width:767px){
+.form-block-footer{
+    width: 570px;
+    height: 86px;
+    
+}
+@media screen and (min-width:280px){
+    .form-block-footer{
+display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 100%;
+    height: 86px;
+}
+}
+@media screen and (min-width:768px){
+    .form-block-footer{
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+        }
+}
+
+@media screen and (min-width:1200px){
+    .form-block-footer{
+        width: 100%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width:280px){
     .footer-all {
     background-color: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     
     
 }
@@ -134,12 +163,7 @@
 }
 
 
-.form-block-footer{
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 
 .form-block-footer__form-titel-footer{
     color: #FFFFFF;
@@ -223,9 +247,8 @@ width: 100%;
     .footer-all {
         background-color: #2F303A;
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 80px;
         display: flex;
-        height: 463px;
         
     }
     
@@ -364,13 +387,7 @@ width: 100%;
     }
     
     
-    .form-block-footer{
-        width: 570px;
-        height: 86px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
+
     
     .form-block-footer__form-titel-footer{
         color: #FFFFFF;
@@ -410,7 +427,8 @@ width: 100%;
     
     .form-block-footer__form-btn-footer{
         position: relative;
-        margin-left: 120px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: Roboto;
         font-weight: 700;
         font-size: 16px;
@@ -463,10 +481,7 @@ width: 100%;
         width: 100%;
         
     }
-    .footer-block{
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     
     .footer-addres-block{
         // margin-right: 70px; 
@@ -601,12 +616,7 @@ width: 100%;
     }
     
     
-    .form-block-footer{
-        width: 570px;
-        height: 86px;
-        margin-right: auto;
-        
-    }
+    
     
     .form-block-footer__form-titel-footer{
         color: #FFFFFF;
@@ -625,7 +635,9 @@ width: 100%;
     
         margin-bottom: 20px;
     }
-    
+    .form-block-footer{
+        display: block;
+    }
     
     .form-block-footer__form-footer{
         width: 570px;
@@ -668,7 +680,8 @@ width: 100%;
     
         
     .footer-block__link-adress{
-        margin-left: auto;
+        display: flex ;
+
     }
     
     

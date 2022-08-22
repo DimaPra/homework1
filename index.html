@@ -444,8 +444,8 @@
   </footer>
   <!-- Модальное Окно -->
 
-<!-- <div class="backdrop is-hidden" data-modal>
-  <div class="modal">
+<div class="backdrop  is-hidden" data-modal>
+  <div class="modal ">
     <p class="modal-titel">Оставьте свои данные, мы вам перезвоним</p>
     
     <form class="form">
@@ -499,11 +499,11 @@
     
       <button type="button" class="modal-close" data-modal-close >
         <svg class="modal-close-icon">
-          <use href="./images/Icon/iconmess/symbol-defs.svg#icon-close" ></use>
+          <use href="../images/Icon/iconmess/symbol-defs.svg#icon-close" ></use>
         </svg>
       </button>
     
-  </div> -->
+  </div>
   </div>
 <script>
   
@@ -522,7 +522,22 @@
 
 
 </script>
-<script src="./sass/js/mobile-menu.js"></script>
+<script src="./sass/js/mobile-menu.js">
+  {
+    const refs = {
+    openMenuBtn: document.querySelector('[data-menu-open]'),
+    closeMenuBtn: document.querySelector('[data-menu-close]'),
+    menu: document.querySelector('[data-menu]'),
+    };
+
+    refs.openMenuBtn.addEventListener('click', toggleModal);
+    refs.closeMenuBtn.addEventListener('click', toggleModal);
+
+    function toggleModal() {
+    refs.menu.classList.toggle('is-open');
+    }
+}
+</script>
 
 </body>
 
