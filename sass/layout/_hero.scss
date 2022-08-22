@@ -23,10 +23,19 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1199px){
+    .hero-fon{
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),url(../images/tablet/herofon-tablet.jpeg.jpg);
+        background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 768px;
+    }
     .section-hero {
         padding-top: 200px;
         padding-bottom: 200px;
-        max-width: 1600px;
+        min-width: 100%;
     
         background-color: #C4C4C4;
         margin-left: auto;
@@ -50,10 +59,19 @@
 
 
 @media screen and (max-width:767px) {
+    .hero-fon{
+        background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),url(../images/mobile/herofon-mobile.jpeg.jpg);
+        background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 480px;
+    }
     .section-hero {
         padding-top: 118px;
         padding-bottom: 118px;
-        max-width: 1600px;
+        max-width: 100%;
     
         background-color: #C4C4C4;
         margin-left: auto;

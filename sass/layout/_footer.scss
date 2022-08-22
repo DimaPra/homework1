@@ -161,13 +161,12 @@ text-transform: uppercase;
 }
 
 .form-block-footer__form-footer{
-    width: 570px;
-    height: 86px;
+width: 100%;
     display: inline-block;
     
 }
 .form-block-footer__footer-form-input{
-    width: 450px;
+    width: 100%;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -175,11 +174,12 @@ text-transform: uppercase;
     background-color: rgba(47, 48, 58,1);
     padding: 15px 16px;
     color: #EEEEEE;
+    margin-bottom: 20px;
 }
 
 .form-block-footer__form-btn-footer{
     position: relative;
-    margin-left: 12px;
+
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
@@ -214,18 +214,23 @@ text-transform: uppercase;
     transform: translateY(-50%);
 }
 
-@media screen and (min-width:768px) and (max-width:1199px){
+
+
+
+
+
+@media screen and (min-width:768px) {
     .footer-all {
         background-color: #2F303A;
         padding-top: 60px;
         padding-bottom: 60px;
         display: flex;
+        height: 463px;
         
     }
     
     
     .footer-addres-block{
-        // margin-right: 70px; 
         display: inline-block;
         min-width: 232px;
     }
@@ -240,6 +245,7 @@ text-transform: uppercase;
     }
     
     .footer__logo {
+        display: block;
         color: #FFFFFF;
         margin-right: 0;
         margin-bottom: 20px;
@@ -303,12 +309,12 @@ text-transform: uppercase;
     .footer-block__link-adress{
         display: flex;
         justify-content: center;
+        align-items: baseline;
     }
     .мessenger-block{
         width: 206px;
         height: 80px;
-        margin-right: 93px;
-        margin-left: 70px;
+        margin-left: 165px;
     }
     
     
@@ -379,19 +385,20 @@ text-transform: uppercase;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    text-align: center;
     
         margin-bottom: 20px;
     }
     
     
     .form-block-footer__form-footer{
-        width: 570px;
-        height: 86px;
-        
+        width: 450px;
+        height: 50px;
+        margin-left: 67px;
+
     }
     .form-block-footer__footer-form-input{
-        width: 358px;
+        width: 100%;
         height: 50px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -403,7 +410,7 @@ text-transform: uppercase;
     
     .form-block-footer__form-btn-footer{
         position: relative;
-        margin-left: 12px;
+        margin-left: 120px;
         font-family: Roboto;
         font-weight: 700;
         font-size: 16px;
@@ -439,20 +446,33 @@ text-transform: uppercase;
     }
 }
 
+
+
+
+
+
+
+
 @media screen and (min-width:1200px){
     .footer-all {
         background-color: #2F303A;
         padding-top: 60px;
         padding-bottom: 60px;
         display: flex;
+        height: 252px;
+        width: 100%;
         
     }
-    
+    .footer-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .footer-addres-block{
         // margin-right: 70px; 
         display: inline-block;
         min-width: 232px;
+
     }
     
     
@@ -525,13 +545,12 @@ text-transform: uppercase;
     .footer-block{
         display: flex;
         align-items: baseline;
+        width: 100%;
         
     }
     
     .мessenger-block{
-        width: 206px;
-        height: 80px;
-        margin-right: 93px;
+
         margin-left: 70px;
     }
     
@@ -585,6 +604,7 @@ text-transform: uppercase;
     .form-block-footer{
         width: 570px;
         height: 86px;
+        margin-right: auto;
         
     }
     
@@ -647,7 +667,9 @@ text-transform: uppercase;
     }
     
         
-    
+    .footer-block__link-adress{
+        margin-left: auto;
+    }
     
     
     .form-block-footer__footer-icon-send{
@@ -660,6 +682,11 @@ text-transform: uppercase;
         transform: translateY(-50%);
     }
 }
+// @media screen and (min-width:1200px) and (max-width:1400px){
+//     .form-block-footer__form-footer{
+//         display: block;
+//     }
+// }
 // .footer-all {
 //     background-color: #2F303A;
 //     padding-top: 60px;

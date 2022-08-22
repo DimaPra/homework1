@@ -64,6 +64,7 @@
         .features-list{
             display: flex;
         flex-wrap: wrap;
+        gap: 30px;
             
         }
         .titel-list {
@@ -71,16 +72,12 @@
                 height: 75px;
                 color: #757575;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 14px ;
                 line-height: 1.72;
                 letter-spacing: 0.03em;
                 margin-top: 10px;
             }
-            .titel-details{
-                width:calc((100% - 2 * 15px) / 2);
-                margin: 5px;
-
-            }
+                
         .titel-details::before {
                 content: "";
                 width: 354px;
