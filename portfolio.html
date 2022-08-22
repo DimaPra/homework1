@@ -284,83 +284,84 @@
     <!--Подвал-->
     <footer class="footer-all">
         <div class="container footer-block ">
+        
+        <div class="footer-block__link-adress">
             <div class="footer-addres-block">
-            <a href="./" class="logo footer__logo"><span class="logo__footer"> Web</span>Studio</a>
+            <a href="./" class="logo footer__logo"><span class=" logo__footer"  lang=“en”> Web</span>Studio</a>
             <address class="address-footer">
             <ul class="footer ">
             <li class="footer__adress"><a href="https://goo.gl/maps/33HmrKuCuac7HAEQ9" class="footer__adress">г. Киев, пр-т Леси
-            Украинки, 26</a></li>
+                Украинки, 26</a></li>
             <li class="footer__adress"><a href="mailto:info@example.com" class="footer__contacts">info@example.com</a></li>
             <li class="footer__adress"><a href="tel:+380991111111" class="footer__contacts">+38 099 111 11 11</a></li>
             </ul>
             </address>
         </div>
         <div class="мessenger-block">
-            <h3 class="мessenger-block__title-мessenger-footer">присоединяйтесь</h3>
+        <h3 class="мessenger-block__title-мessenger-footer">присоединяйтесь</h3>
         <ul class="list-мessenger list">
-            <li >
+        <li >
             <a href="" class="list-мessenger__icon-messenger-link-footer">
-                <svg class=" list-мessenger__icon-messenger-footer icon-instagram">
+            <svg class=" list-мessenger__icon-messenger-footer icon-instagram">
                 <use href="./images/Icon/iconmess/symbol-defs.svg#icon-instagram"></use>
-                </svg>
+            </svg>
             </a>
-            </li>
-            <li >
+        </li>
+        <li >
             <a href="" class="list-мessenger__icon-messenger-link-footer">
-                <svg class=  "list-мessenger__icon-messenger-footer icon-twitter ">
+            <svg class=  "list-мessenger__icon-messenger-footer icon-twitter ">
                 <use href="./images/Icon/iconmess/symbol-defs.svg#icon-twitter"></use>
-                </svg>
+            </svg>
             </a>
-            </li>
-            <li >
+        </li>
+        <li >
             <a href="" class="list-мessenger__icon-messenger-link-footer">
-                <svg class="list-мessenger__icon-messenger-footer  icon-facebook ">
+            <svg class="list-мessenger__icon-messenger-footer  icon-facebook ">
                 <use href="./images/Icon/iconmess/symbol-defs.svg#icon-facebook"></use>
-                </svg>
+            </svg>
             </a>
-            </li>
-            <li >
+        </li>
+        <li >
             <a href="" class="list-мessenger__icon-messenger-link-footer">
-                <svg class="list-мessenger__icon-messenger-footer  icon-linkedin ">
+            <svg class="list-мessenger__icon-messenger-footer  icon-linkedin ">
                 <use href="./images/Icon/iconmess/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
+            </svg>
             </a>
-            </li>
+        </li>
         </ul>
         
+        </div>
     </div>
-    <div class="form-block-footer">
+        <div class="form-block-footer">
         <p class="form-block-footer__form-titel-footer">Подпишитесь на рассылку</p>
         <form class="form-block-footer__form-footer" action="">
-        <input type="email" name="mail" placeholder="E-mail" class="form-block-footer__footer-form-input">
-        <button class="form-block-footer__form-btn-footer  " type="submit">Подписаться
+            <input type="email" name="mail" placeholder="E-mail" class="form-block-footer__footer-form-input">
+            <button class="form-block-footer__form-btn-footer  " type="submit">Подписаться
             <svg class="form-block-footer__footer-icon-send">
-            <use href="./images/Icon/iconmess/symbol-defs.svg#icon-icon-send"></use>
+                <use href="./images/Icon/iconmess/symbol-defs.svg#icon-icon-send"></use>
             </svg>
-        </button>
+            </button>
         </form>
+        </div>
     </div>
-        
-    </div>
-        
     
     </footer>
     <script src="./sass/js/mobile-menu.js">
         {
-          const refs = {
-          openMenuBtn: document.querySelector('[data-menu-open]'),
-          closeMenuBtn: document.querySelector('[data-menu-close]'),
-          menu: document.querySelector('[data-menu]'),
-          };
-      
-          refs.openMenuBtn.addEventListener('click', toggleModal);
-          refs.closeMenuBtn.addEventListener('click', toggleModal);
-      
-          function toggleModal() {
-          refs.menu.classList.toggle('is-open');
-          }
-      }
-      </script>
+        const refs = {
+        openMenuBtn: document.querySelector('[data-menu-open]'),
+        closeMenuBtn: document.querySelector('[data-menu-close]'),
+        menu: document.querySelector('[data-menu]'),
+        };
+    
+        refs.openMenuBtn.addEventListener('click', toggleModal);
+        refs.closeMenuBtn.addEventListener('click', toggleModal);
+    
+        function toggleModal() {
+        refs.menu.classList.toggle('is-open');
+        }
+    }
+    </script>
 </body>
 
 </html>
