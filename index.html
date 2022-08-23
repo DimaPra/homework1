@@ -132,7 +132,7 @@
           
             <li>
               <div class="product-work">
-                <img src="./images/img1.jpg" alt="процесс роботы" width="370" height="294" />
+                <img srcset="./images/desktop/lessons/lessons1.jpg 1x, ./images/desktop/lessons/lessons1x2.jpg 2x" src="./images/desktop/lessons/lessons1.jpg" alt="процесс роботы"  />
                 <div class="titel-product">
                   <p class="titel-product-work">Десктопные приложения</p>
                 </div>
@@ -141,7 +141,7 @@
           
             <li>
               <div class="product-work">
-                <img src="./images/box2.jpg" alt="процесс роботы" width="370" height="294" />
+                <img srcset="./images/desktop/lessons/lessons2.jpg 1x, ./images/desktop/lessons/lessons2x2.jpg 2x" src="./images/desktop/lessons/lessons2.jpg " alt="процесс роботы"  />
             <div class="titel-product">
               <p class="titel-product-work">Мобильные приложения</p>
             </div>
@@ -150,7 +150,7 @@
           
             <li>
               <div class="product-work">
-                <img src="./images/box3.jpg" alt="процесс роботы" width="370" height="294" />
+                <img srcset="./images/desktop/lessons/lessons3.jpg 1x, ./images/desktop/lessons/lessons3x2.jpg 2x" src="./images/desktop/lessons/lessons3.jpg  " alt="процесс роботы"  />
             <div class="titel-product">
               <p  class="titel-product-work">Дизайнерские решения</p>
             </div>
@@ -168,7 +168,18 @@
         <h2 class="section-titel team-titel">Наша команда</h2>
         <ul class="team">
           <li class="team__card ">
-            <img class="img-team" src="./images/team/team1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+            <picture>
+              <source srcset="./images/desktop/team/team1.jpg 1x, ./images/desktop/team/team1x2.jpg 2x" media="(min-width: 1200px)"/>
+              <source srcset="./images/tablet/team/team1.jpg 1x, ./images/tablet/team/team1x2.jpg 2x" media="(min-width: 768px)"/>
+              <source srcset="./images/mobile/team/team1.jpg 1x, ./images/mobile/team/team1x2.jpg 2x" media="(min-width: 280px)"/>
+              
+              
+            
+            <img  
+            class="img-team" 
+            src="./images/mobile/team/team1.jpg" 
+            alt="Игорь Демьяненко" >
+          </picture>
             <div class="command-flame ">
               <h3 class="team-name name-work">Игорь Демьяненко</h3>
               <p class="work name-work">Product Designer</p>
@@ -209,7 +220,14 @@
             </div>
           </li>
           <li class="team__card">
-            <img class="img-team" src="./images/team/team2.jpg" alt="Ольга Репина" width="270" height="260">
+            <picture>
+              <source srcset="./images/desktop/team/team2.jpg 1x, ./images/mobile/team/team2x2.jpg 2x" media="(min-width: 1200px)"/>
+              <source srcset="./images/tablet/team/team2.jpg 1x, ./images/tablet/team/team2x2.jpg 2x" media="(min-width: 768px)"/>
+              <source srcset="./images/mobile/team/team2.jpg 1x, ./images/desktop/team/team2x2.jpg 2x" media="(min-width: 280px)"/>
+              
+              
+              <img class="img-team"  src="./images/mobile/team/team2.jpg" alt="Ольга Репина" >
+            </picture>
             <div class="command-flame">
               <h3 class="team-name name-work">Ольга Репина</h3>
               <p class="work name-work">Frontend Developer</p>
@@ -247,7 +265,12 @@
             </div>
           </li>
           <li class="team__card">
-            <img class="img-team" src="./images/team/team3.jpg" alt="Николай Тарасов" width="270" height="260">
+            <picture>
+              <source srcset="./images/desktop/team/team3.jpg 1x, ./images/desktop/team/team3x2.jpg 2x" media="(min-width: 1200px)"/>
+              <source srcset="./images/tablet/team/team3.jpg 1x, ./images/tablet/team/team3x2.jpg 2x" media="(min-width: 768px)"/>
+              <source srcset="./images/mobile/team/team3.jpg 1x, ./images/mobile/team/team3x2.jpg 2x" media="(min-width: 280px)"/>
+              <img class="img-team"  src="./images/mobile/team/team3.jpg" alt="Николай Тарасов" >
+            </picture>
             <div class="command-flame">
               <h3 class="team-name name-work">Николай Тарасов</h3>
               <p class="work name-work">Marketing</p>
@@ -284,7 +307,13 @@
             </div>
           </li>
           <li class="team__card">
-            <img class="img-team" src="./images/team/team4.jpg" alt="Михаил Ермаков" width="270" height="260">
+            <picture>
+              <source srcset="./images/desktop/team/team4.jpg 1x, ./images/desktop/team/team4x2.jpg 2x" media="(min-width: 1200px)"/>
+              <source srcset="./images/tablet/team/team4.jpg 1x, ./images/tablet/team/team4x2.jpg 2x" media="(min-width: 768px)"/>
+              <source srcset="./images/mobile/team/team4.jpg 1x, ./images/mobile/team/team4x2.jpg 2x" media="(min-width: 280px)"/>
+              <img class="img-team"  src="./images/mobile/team/team4.jpg" alt="Михаил Ермаков" >
+            </picture>
+            
             <div class="command-flame">
               <h3 class="team-name name-work">Михаил Ермаков</h3>
               <p class="work name-work">UI Designer</p>
