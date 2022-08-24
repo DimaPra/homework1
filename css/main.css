@@ -635,7 +635,7 @@ li {
     display: flex;
     gap: 10px;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .mobile-menu__messeg-link {
     text-align: center;
