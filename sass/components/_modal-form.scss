@@ -135,10 +135,11 @@ border: none;
 
 .policy{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     font-weight: 400;
     font-size: 12px;
 line-height: 14px;
+letter-spacing: 0.03em;
 
 
 
@@ -166,6 +167,7 @@ line-height: 14px;
     flex-direction:row ;
     align-items: center;
     justify-content: center;
+    letter-spacing: 0.03em;
 
 }
 
@@ -211,12 +213,15 @@ line-height: 14px;
 
 .form-link{
     
-    font-size: 14px;
+    font-size: 12px;
 line-height: 14px;
     color: #2196F3;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
 }
-@media screen and (min-width:280px){
+@media screen and (min-width:280px) and (max-width:1199px){
     .form-link{
-        font-size: 12px;
+        font-size: 11px;
+        
     }
 }

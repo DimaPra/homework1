@@ -43,6 +43,9 @@
         letter-spacing: 0.03em;
         text-align: center;
     }
+    
+    
+
     .titel-list {
 
         color: #757575;
@@ -59,7 +62,8 @@
 }
     @media screen and (min-width:768px) and (max-width:1199px){
         .section-futures {
-        margin-top: 60px;
+        padding-bottom:60px ;
+        padding-top: 60px;
             }
         .features-list{
             display: flex;
