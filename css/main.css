@@ -467,7 +467,13 @@ li {
 
 @media screen and (min-width: 768px) {
   .project-size {
-    padding-bottom: 55px;
+    height: 147px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-size {
+    padding-bottom: 0;
+    height: 111px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -489,6 +495,12 @@ li {
   .product {
     width: 354px;
     height: 440px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product {
+    width: 370px;
+    height: 404px;
   }
 }
 .project__project-potf {
@@ -604,6 +616,12 @@ li {
     padding-top: 48px;
     margin-bottom: 302px;
   }
+  .mobile-menu__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
   .mobile-menu__nav-list-pade {
     font-family: "Roboto";
     font-style: normal;
@@ -619,6 +637,8 @@ li {
   .mobile-menu__contact {
     padding-left: 25px;
     margin-bottom: 64px;
+    position: fixed;
+    bottom: 134px;
   }
   .mobile-menu__contact-link {
     font-style: normal;
@@ -636,30 +656,38 @@ li {
     gap: 10px;
     text-align: center;
     justify-content: flex-start;
-  }
-  .mobile-menu__messeg-link {
-    text-align: center;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2196F3;
-  }
-  .line-line::after {
-    content: "";
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
-    margin-left: 10px;
-    height: 22px;
-  }
-  .mobile-menu__nav-list-pade:hover {
-    color: #2196F3;
-  }
-  .mobile-menu__contact-link:hover {
-    color: #2196F3;
+    position: fixed;
+    bottom: 48px;
+    left: 40px;
+    right: 41px;
   }
 }
+.mobile-menu__messeg-link {
+  text-align: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2196F3;
+}
+
+.line-line::after {
+  content: "";
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  margin-left: 10px;
+  height: 22px;
+}
+
+.mobile-menu__nav-list-pade:hover {
+  color: #2196F3;
+}
+
+.mobile-menu__contact-link:hover {
+  color: #2196F3;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
@@ -1072,6 +1100,14 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+  }
+  .features-list .titel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
   }
   .titel-list {
     width: 354px;

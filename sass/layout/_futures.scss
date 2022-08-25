@@ -69,7 +69,14 @@
             display: flex;
         flex-wrap: wrap;
         gap: 30px;
-            
+        .titel {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: 0.03em;
+        }
         }
         .titel-list {
                 width: 354px;

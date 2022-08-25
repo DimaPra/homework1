@@ -30,10 +30,15 @@
 }
 @media screen and (min-width:768px){
     .project-size{
-        padding-bottom: 55px;
+        height: 147px;;
     }
 }
-
+@media screen and (min-width:1200px){
+    .project-size{
+        padding-bottom: 0;
+        height: 111px;
+    }
+}
 
 @media screen and (min-width:768px){
     .project{
@@ -57,6 +62,13 @@
         height: 440px;
     }
 }
+
+@media screen and (min-width:1200px){
+    .product{
+        width: 370px;
+        height: 404px;
+    }
+}
 .project__project-potf {
     border: 1px solid #EEEEEE;
     padding-top: 20px;
@@ -65,6 +77,7 @@
     padding-bottom: 20px;
     
 }
+
 .project__product-card{     
     position: relative;
     overflow:hidden ;

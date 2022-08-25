@@ -37,7 +37,12 @@ padding-left: 25px;
 padding-top: 48px;
 margin-bottom: 302px;
 }
-
+.mobile-menu__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 
 .mobile-menu__nav-list-pade{
     font-family: 'Roboto';
@@ -58,7 +63,8 @@ color: #212121;
 .mobile-menu__contact{
     padding-left: 25px;
     margin-bottom: 64px;
-    
+    position: fixed;
+    bottom: 134px;
 }
 
 .mobile-menu__contact-link{
@@ -80,7 +86,11 @@ color: #212121;
     gap: 10px;
     text-align: center;
 justify-content: flex-start;
-
+position: fixed;
+    bottom: 48px;
+    left: 40px;
+    right: 41px;
+}
 }
 .mobile-menu__messeg-link{
 text-align: center;
@@ -108,7 +118,7 @@ height: 22px;
     color: #2196F3;
 }
 
-}
+
 
 @media screen and (min-width:768px) {
     .mobile-menu{
